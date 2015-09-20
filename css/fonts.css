@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "ConstantineRegular";
+	src: url("../fonts/ConstantineRegular/ConstantineRegular.eot");
+	src: url("../fonts/ConstantineRegular/ConstantineRegular.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/ConstantineRegular/ConstantineRegular.woff") format("woff"),
+	url("../fonts/ConstantineRegular/ConstantineRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

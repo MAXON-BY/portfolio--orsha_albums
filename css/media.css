@@ -1,0 +1,537 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	header .what h1 {
+		font-size: 26px;
+	}
+	header .why p {
+		font-size: 15px;
+	}
+	header p.under {
+		margin-bottom: 25px;
+	}
+	header .why h4 {
+		font-size: 21px;
+	}
+	#about_us p {
+		font-size: 15px;
+	}
+	.navbar-default .nav li a {
+		font-size: 21px;
+	}
+	.call_us h3 {
+		margin-top: 35px;
+		font-size: 25px;
+	}
+	#sale p.b {
+		font-size: 20px;
+	}
+	#helpful p {
+		font-size: 15px;
+	}
+	#shema .bg_line {
+		background-position: 24px 103px;
+	}
+	#alboms .bg_alboms {
+		background-image: url("../img/bg_slider_album_610.jpg");
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	header .what h1 {
+		font-size: 20px;
+	}
+	header .what p {
+		font-size: 16px;
+	}
+	header .what p span {
+		font-size: 14px;
+	}
+	header img {
+		width: 100%;
+	}
+	header .call span {
+		font-size: 28px;
+	}
+	header .call a {
+		font-size: 18px;
+	}
+	.navbar-default .nav li a {
+		font-size: 16px;
+		padding: 10px;
+	}
+	header h3 {
+		font-size: 36px;
+		margin-top: 50px;
+	}
+	header .why h4 {
+		font-size: 16px;
+	}
+	header .why{
+		padding-bottom: 10px;
+	}
+	header .why p {
+		font-size: 12px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	#about_us h2 {
+		top: 15px;
+	}
+	#about_us p {
+		font-size: 12px;
+		margin-top: 0px;
+	}
+	#figures{
+		padding-top: 0;
+	}
+	#figures h2.we {
+		font-size: 30px;
+		margin-bottom: 5px;
+	}
+	#figures h2 {
+		font-size: 44px;
+		line-height: 29px;
+		padding-top: 12px;
+		margin-bottom: 20px;
+	}
+	#figures h2 span {
+		font-size: 18px;
+	}
+	#figures .block {
+		margin: 20px 0;
+	}
+	#figures p.fig {
+		font-size: 40px;
+	}
+	#figures p {
+		font-size: 17px;
+	}
+	#helpful img {
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
+	#helpful p {
+		font-size: 12px;
+	}
+	#helpful h2 {
+		margin-bottom: 50px;
+	}
+	#helpful .help {
+		margin: 10px 0 0 0;
+	}
+	#sale h3 {
+		font-size: 20px;
+	}
+	#sale p {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	#sale p.b {
+		font-size: 15px;
+	}
+	#sale p.red {
+		margin-bottom: 20px;
+	}
+	#sale a {
+		margin-top: 25px;
+		font-size: 20px;
+		line-height: 15px;
+	}
+	#shema .bg_line {
+		background-image: url("../img/bg_line_720.png");
+		background-position: -1px 103px;
+	}
+	#shema .wrap_1 p,
+	#shema .wrap_2 p,
+	#shema .wrap_3 p{
+		font-size: 15px;
+	}
+	#shema .wrap_1 {
+		padding-top: 90px;
+		padding-left: 38px;
+	}
+	#shema .all_day p {
+
+		padding: 20px 0;
+	}
+	#alboms .bg_alboms {
+		background-image: url("../img/bg_slider_album_468.jpg");
+	}
+	#alboms p {
+		bottom: 85px;
+		font-size: 13px;
+	}
+	#alboms h3 {
+		top: 52px;
+		font-size: 20px;
+	}
+	#alboms .owl-theme .owl-controls {
+		bottom: 34px;
+		left: 29%;
+	}
+	#parents p.main {
+		font-size: 27px;
+	}
+	#parents p {
+		font-size: 30px;
+	}
+	#parents a {
+		margin-top: 20px;
+	}
+	footer p {
+		font-size: 23px;
+		padding-left: 0%;
+	}
+	footer .address {
+		padding-top: 20px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	.what{
+		text-align: center;
+	}
+	header .what h1 {
+		font-size: 28px;
+	}
+	header .what p {
+		font-size: 20px;
+	}
+	header .what p span {
+		font-size: 16px;
+	}
+	header img {
+		width: 80%;
+		padding: 25px 0;
+	}
+	header .call {
+		float: none;
+		text-align: center;
+	}
+	.navbar-header.page-scroll {
+		border-bottom: 1px solid grey;
+	}
+	header h3 {
+		font-size: 30px;
+		margin-top: 30px;
+		line-height: 1;
+	}
+	header p.under {
+		line-height: 1.1;
+		margin-bottom: 24px;
+		font-size: 18px;
+		padding: 5px 24px;
+	}
+	header .why h4 {
+		font-size: 19px;
+	}
+	header .why p.b {
+		margin-bottom: 30px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	#about_us h2 {
+		top: -7px;
+	}
+	#about_us p {
+		font-size: 12px;
+		margin-top: 10px;
+		text-align: center;
+	}
+	#about_us p.right {
+		text-align: center;
+	}
+	#figures p.fig {
+		font-size: 34px;
+		padding-top: 18px;
+	}
+	.call_us .block {
+		padding-left: 0px;
+		line-height: 1.2;
+	}
+	#helpful img {
+		width: 70%;
+	}
+	#sale img {
+		display: none;
+	}
+	#shema .bg_shema {
+		background-image: url("../img/bg_shema_mobilee.jpg");
+		background-repeat: repeat-x;
+		height: 1400px;
+	}
+	#shema .bg_line {
+		background-image: url("../img/bg_line_mobilee.png");
+		background-position: 52px 0px;
+		height: 1400px;
+	}
+	#alboms .bg_alboms {
+		background-image: url("../img/bg_slider_album_mobilee.jpg");
+	}
+	#shema .wrap_1 p, #shema .wrap_2 p, #shema .wrap_3 p {
+		display: inline-block;
+		font-size: 15px;
+		vertical-align: middle;
+	}
+	#shema img {
+		display: inline-block;
+	}
+	#shema .block {
+		display: block;
+	}
+	#shema .wrap_1 .block:first-child{
+		padding-bottom: 30px;
+	}
+	#shema .wrap_1 .block:first-child p{
+		padding-left: 33px;
+		padding-bottom: 0px;
+	}
+	#shema .wrap_1 .block:nth-child(2) {
+		padding-bottom: 30px;
+	}
+	#shema .wrap_1 .block:nth-child(2) img {
+		position: relative;
+		left: -21px;
+		top: 3px;
+	}
+	#shema .wrap_1 .block:nth-child(3) {
+		padding-bottom: 20px;
+	}
+	#shema .wrap_1 .block:nth-child(3) img {
+		position: relative;
+		left: -14px;
+		top: 0px;
+	}
+	#shema .wrap_1 .block:nth-child(3) p{
+		padding-left: 9px;
+		padding-top: 4px;
+	}
+	#shema .wrap_1 .block:last-child p{
+		padding-left: 19px;
+		margin-top: 0px;
+	}
+
+	#shema .wrap_2 .block:first-child{
+		padding-bottom: 30px;
+		padding-top: 68px;
+	}
+	#shema .wrap_2 .block:first-child p{
+		padding-left: 7px;
+		padding-bottom: 0px;
+	}
+	#shema .wrap_2 .block:first-child img{
+		position: relative;
+		top: 3px;
+		left: -9px;
+	}
+	#shema .wrap_2 .block:nth-child(2) {
+		padding-bottom: 25px;
+		position: relative;
+		top: 0px;
+		left: 23px;
+	}
+	#shema .wrap_2 .block:nth-child(2) p{
+		padding-bottom: 10px;
+		padding-left: 26px;
+	}
+	#shema .wrap_2 .block:nth-child(3) {
+		padding-bottom: 19px;
+		position: relative;
+		top: 0px;
+		left: 23px;
+	}
+	#shema .wrap_2 .block:nth-child(3) p{
+		padding-left: 17px;
+		padding-bottom: 14px;
+	}
+	#shema .wrap_2 .block:nth-child(4) {
+		top: 0px;
+		left: 23px;
+	}
+	#shema .wrap_2 .block:nth-child(4) p{
+		padding-left: 27px;
+		padding-bottom: 0px;
+	}
+
+	#shema .wrap_3 .block:first-child{
+		padding-bottom: 30px;
+		padding-top: 50px;
+	}
+	#shema .wrap_3 .block:first-child p{
+		padding-left: 51px;
+		padding-bottom: 0px;
+	}
+	#shema .wrap_3 .block:first-child img{
+		position: relative;
+		left: 20px;
+		top: 5px;
+	}
+	#shema .wrap_3 .block:nth-child(2){
+		padding-bottom: 11px;
+	}
+	#shema .wrap_3 .block:nth-child(2) p{
+		padding-left: 39px;
+		padding-bottom: 0px;
+	}
+	#shema .wrap_3 .block:nth-child(2) img{
+		position: relative;
+		left: 20px;
+		top: 5px;
+	}
+	#shema .wrap_3 .block:nth-child(3){
+		padding-bottom: 55px;
+	}
+	#shema .wrap_3 .block:nth-child(3) p{
+		padding-left: 69px;
+		padding-bottom: 0px;
+	}
+	#shema .wrap_3 .block:nth-child(3) img{
+		position: relative;
+		left: 33px;
+		top: 5px;
+	}
+	#shema .wrap_3 .block:last-child{
+
+	}
+	#shema .wrap_3 .block:last-child p{
+		padding-left: 20px;
+		padding-bottom: 0px;
+	}
+	#shema .wrap_3 .block:last-child img{
+		position: relative;
+		left: 0px;
+		top: 5px;
+	}
+	#review .owl-theme .owl-controls {
+		left: 42%;
+	}
+	#alboms p {
+		bottom: 69px;
+		font-size: 10px;
+	}
+	#alboms .owl-theme .owl-controls {
+		bottom: 16px;
+		left: 24%;
+	}
+	#owl-demo_1 .owl-prev {
+		display: none;
+	}
+	#owl-demo_1 .owl-next {
+		display: none;
+	}
+
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	#review .rev {
+		margin: 0 auto;
+		width: 290px;
+		padding-bottom: 40px;
+	}
+	#review img {
+		width: 100%;
+	}
+	#review .owl-theme .owl-controls {
+		left: 35%;
+	}
+	#review .owl-theme .owl-controls {
+		bottom: -25px;
+	}
+	#alboms h3 {
+		top: -1px;
+		font-size: 14px;
+	}
+	#alboms p {
+		display: none;
+	}
+	#alboms .owl-theme .owl-controls {
+		bottom: -29px;
+		left: 0%;
+	}
+	#alboms .bg_alboms {
+		background-image: url("../img/bg_slider_album__small_mobilee.jpg");
+	}
+	#parents{
+		margin-top: 26px;
+	}
+	#parents p.main {
+		font-size: 17px;
+	}
+	#parents p {
+		font-size: 22px;
+	}
+	#review {
+		padding-bottom: 45px;
+	}
+	#owl-demo_1 .owl-prev {
+		display: none;
+	}
+	#owl-demo_1 .owl-next {
+		display: none;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
